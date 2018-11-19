@@ -1,0 +1,40 @@
+.candidate {
+  padding: 8px;
+
+  border: 1px solid #ccc;
+}
+
+.candidate__img {
+  float: left;
+
+  padding-right: 8px;  
+}
+
+.candidate__name {
+  padding-left: 52px;
+}
+
+.candidate__name > span,
+.candidate__city > span {
+  padding-right: 4px;
+  display: inline-block;
+
+  text-transform: capitalize;
+}
+
+.candidate + .candidate {
+  margin-top: 16px;
+}
+
+.candidate__controls {
+  display: flex;
+  width: 100%;
+}
+
+.candidate__left {
+  margin-right: auto;
+}
+
+.candidate__right {
+  margin-left: auto;
+}
